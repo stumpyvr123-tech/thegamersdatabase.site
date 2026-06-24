@@ -47,6 +47,17 @@
             
             
         }
+
+        .dropdown {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+        background-color: green;
+        color: white;
+        border-radius: 30px;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -59,11 +70,14 @@
         
 
 
-        <select onchange="if (this.value) window.location.href = this.value;">
-    <option href="index.html" value="index.html">Home</option>
-    <option href="gamebrowser.html" value="gamebrowser.html">Browse All</option>
-</select>
+        <select class="dropdown" onchange="if (this.value) window.location.href = this.value;">
+    <option class="dropdown" href="index.html" value="#">Games</option>
+    <option class="dropdown" value="index.html">Home</option>
+    <option class="dropdown" href="gamebrowser.html" value="gamebrowser.html">Browse All</option>
         
+            <option class="dropdown" href="gamebrowser.html" value="cs2.html">CS2</option>
+        
+
         
         <h1 style="background-color: light-grey; text-align: center; background-color: #E5E5E5; display: inline-block; width: 100%;
 ">Gamers' Database - CS2</h1>
